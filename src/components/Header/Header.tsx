@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { useNavigate } from "react-router-dom";
+import logoImg from "../../assets/img/metro_task_11258.png"
 import {
   BsGear,
   BsPencilSquare,
@@ -19,7 +20,7 @@ const Header = () => {
       <Container fluid>
         <Navbar.Brand href="/">
           <img
-            src="src/assets/img/metro_task_11258.png"
+            src={logoImg}
             className="logo"
             alt="logo"
           />
