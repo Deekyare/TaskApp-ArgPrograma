@@ -1,6 +1,6 @@
 import { Tarea } from "../types/Task";
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://backtaskapp-argprograma.onrender.com/tasks";
 
 //DIFERENTES LLAMADAS A LA API
 
